@@ -1,0 +1,10 @@
+JumpWindow < MainWindow
+  size: 500 500
+  text: "Jump Window"
+  draggable: false
+
+  Button
+    id: jumpButton
+    text: "Jump!"
+    size: 80 30
+    anchors.centerIn: parent
